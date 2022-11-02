@@ -1,7 +1,8 @@
 ## First add bitnami because we will use bitnami mongo helm cahrt
 
-helm repo add bitnami https://charts.bitnami.com/bitnami
+```helm repo add bitnami https://charts.bitnami.com/bitnami
 helm install mongodb bitnami/mongodb -f mongodb-custom-valuse.yaml
+```
 ```
 Here in custom values i just made few chenge like set root user name as root
 and password as admin
