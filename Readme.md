@@ -9,6 +9,22 @@ and password as admin
 NB:You may see in secret its base64 dont worry 
 ```
 
+Now enter into mongodb pod and create a database and user
+```
+use dev_future_nations;
+db.createUser(
+   {
+     user: "admin",
+     pwd: "admin",
+     roles: [ "dbOwner" ]
+   }
+)
+```
+And please insert a document then you can see using=show dbs;
+```
+db.products.insert( { _id: 10, item: "box", qty: 20 } )
+```
+
 # Here below i am providing my custom values
 
 
