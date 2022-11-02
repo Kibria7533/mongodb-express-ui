@@ -5,8 +5,8 @@ metadata:
   namespace: default
 type: Opaque
 data:
-  mongo-root-username: root(base 64 converted)
-  mongo-root-password: zsasxxjjkkae232@edsj](base 64 converted)
+  mongo-root-username: cm9vdA==
+  mongo-root-password: YWRtaW4=
 ---
 apiVersion: v1
 kind: ConfigMap
